@@ -23,29 +23,12 @@
         <div class="block full">
             <!-- BLOQUE DE WIDGEETS INFORMATIVVOS-->
             <div class="col-lg-12">
-                <div class="col-xs-4 row text-center animation-fadeIn">
-                    <strong class="btn btn-warning"><h2>$45.670.000</h2>
-                        <small><?php echo MONEDA ?> recogidos durante los últimos 30 días</small>
-                    </strong>
-                </div>
-
-                <div class="col-xs-4">
-                    <div class="col-xs-12 row text-center animation-fadeIn">
-                        <strong class="btn btn-danger"><h2>23</h2>
-                            <small>Estudiantes que estan en mora</small>
-                        </strong>
-                    </div>
-                </div>
-
-
-                <div class="col-xs-4">
-                    <div class="col-xs-12 row text-center animation-fadeIn">
-                        <strong class="btn btn-info"><h2>$32.000.000</h2>
-                            <small><?php echo MONEDA ?> estimados en recoger en los proximos 30 días</small>
-                        </strong>
-                    </div>
-                </div>
-
+                <?php 
+                    include '../inc/widgets/totalRecogidoxdias.php';
+                    include '../inc/widgets/numeroEstudiantesEnMora.php';
+                    include '../inc/widgets/estimadoRecogerDineroProximasFechas.php'
+                   
+                ?>
 
             </div>
             <!-- FIN BLOQUE DE WIDGETS INFORMATIVOS-->
