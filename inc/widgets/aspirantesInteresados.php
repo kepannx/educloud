@@ -3,7 +3,7 @@
             <a href="<?php echo BASEPATH; ?>estudiantes/aspirantes.php" class="widget widget-hover-effect1">
                 <div class="widget-simple">
                     <div class="widget-icon pull-left themed-background-fire animation-fadeIn">
-                        47
+                        <?php  ?>
                     </div>
                     <h3 class="widget-content text-right animation-pullDown">
                         <strong>Interesados</strong>
